@@ -78,7 +78,7 @@ const users = [
       3.- Necesitamos una lista con únicamente aquellos usuarios con género "Female"
       4.- Necesitamos saber la edad promedio de los usuarios
       5.- Necesitamos saber la mayor edad
-      6.- Necesitamos saber la menor edad
+      6.- Necesitamos saber la menor edad:
   */
 
 //1. Lista de Nombres

@@ -56,6 +56,10 @@ const contarPalabras = phrase => {
 console.log("El total de palabras es:", contarPalabras(phrase));
 
 
+//otra opcion
+const countWord = (text) => text.split (" ").length
+console.log (countWord)
+
 
 //D. Poner mi frase en Mayusculas
 //1. Tener una frase o caracteres del abecedario latin
@@ -86,6 +90,16 @@ const reemplazarLetras = phrase => {
 
 console.log("Frase con 'a' reemplazada por '4':", reemplazarLetras(phrase))
 
+
+
+
+//Otra opcion
+
+const replacePart = (text, toreplace,  replacement) => 
+text.replaceAll(toreplace, replacement)
+let regex = /[aA]/g;
+let replacementone = replacePart (phrase, regex, "4");
+console.log(replacementone)
 
 
 

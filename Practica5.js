@@ -10,7 +10,7 @@
 //9. usar el metodo array.pop o array.splice para eliminar una palabra 
 //10. indicar dentro de mi array.splice los parametros de la palabra seleccionada, y la cantidad de elementos que queremos eliminar
 //11. imprimir la palabra pero con un metodo que permita reconstruir, despues de aver eliminado una palabra 
-//12. imprimir este nuevo string 
+//12. imprimir este nuevo string.
 
 
 const imprimirElemento = (texto, index) => {
@@ -30,4 +30,4 @@ const imprimirElemento = (texto, index) => {
 };
 
 const frase = "La mejor forma de predecir el futuro es creandolo";
-imprimirElemento(frase, 0); 
+imprimirElemento(frase, 8); 
